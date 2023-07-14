@@ -30,9 +30,9 @@ int main()
                 math = simpleMathHaHa, math ? printf("%d it's that simple\n", math(2, 2)):printf("Whatever\n");
                 break;
             case 3:
-                printf("Coward, run away.\n"), exit(0);
+                printf("Exiting the program.\n"), exit(0);
             default:
-                printf("PICK BETWEEN 1 OR 2 GOD DAYYUM(NO I AM NOT AN ANGRY MF NIG..)\n");
+                printf("PICK BETWEEN 1 OR 2\n");
                 break;
         }
 
